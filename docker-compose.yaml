@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    meet-web:
+        build: .
+        ports:
+            - 30001:443
